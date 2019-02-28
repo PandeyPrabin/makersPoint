@@ -1,0 +1,56 @@
+body{
+    width: 100%;
+    height: 100%;
+    align: center;
+}
+h1{
+    background-color: dimgrey;
+    text-align: center;
+    color:orange;
+    padding: 15px 17px 10px 15px;
+        
+}
+.navbar{
+    background-color: gainsboro;
+    box-sizing: border-box;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 17px 10px 15px;
+    width: 100%;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: darkseagreen;
+    
+}
+
+#container
+{
+background-color: rgb(209, 250,250);
+    width:40%;
+    margin: auto;
+    padding: 50px;
+}
+
+label{
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gills Sans MT', Calibri, ' Trebuchet MS', sans-serif;
+    
+}
+
+input[type=text],
+[type=email],
+[type=password]{
+    margin: 5px 0 10px 0;
+    width: 100%;
+    padding: 5px;
+}
+
+input[type=submit]{
+    width: 30%;
+    height:30px;
+    margin-top:10px;
+    border: 0;
+    background-color: seagreen;
+}
